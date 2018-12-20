@@ -1,0 +1,49 @@
+1.df -Th : No of Partitions/My Computer of Linux
+2.cd - change directory, md - make directory
+3. ls- list (ls -a: all files(show hidden files))
+4. pwd- present working directory
+5.man -manual
+6. clear / ctrl+l: clear terminal
+7. cat: read a file
+8. mkdir: make directory
+9. su -  change to root user
+10. su - "username" : change current user
+11. useradd 
+12. ctrl+ d/logout/exit: logout
+13. DONOT USE: rm -rvf /
+14. touch : create a new file
+15.vi/vim for redhat and nano for debian: edit files
+16.systemctl status/stop/start "sshd"- check status/start/stop of sshd service
+17. wall-  broadcast message to all logged in users
+18.In WIndows to Restart wireless network :ncpa.ctl
+19.w: list of all loggedin users 
+20. ps: get my processes/machine number...
+ps -aux
+21.ifup ens33 and ifdown ens33 : to connect/disconnect system to network
+22. wc: word count
+23. free /free -h: get ram status
+24. ssh vssut@10.208.34.9
+25. command | wc -l : count no of things in a list	
+26. top
+27. VIM COMMANDS
+	 get out of vi : esc-> :q or :q!(forcefully quit)
+	 insert in vim : press i
+ 	 w: write 
+ 	 wq: save and exit
+	:set nu : line numbers will be displayed
+	?"text" : search a particular text in the file
+	:%s/"oldtext"/"newtext" : search and replace all
+28.head -n "10" "filename": display first 10 lines 
+29.tail -n "10" "filename" : display last 10 lines
+30.more/less "filename": display first 10 lines and press enter to show next line
+31. head -n 50| tail -n 15 : display line 35 to 50  (1st find first 50 lines and then show last 15 lines of that first 50 line)
+32.tar -zxvf "filename" - extract archive files (zxvf-> z:gzip,x:extract,v:verbose,f:bzip2)
+33.cp "vss.txt" "/home/msatul1305/Desktop" -v : copy from current directory to new directory -v=>verbose(show copied acknowldgement)
+34. "." : current directory
+35. ".." : parent directory
+36.cp -r : copy a folder (recursive)
+37. rm : remove/delete file
+38. mv : move-It renames if you move it to same dir(used to rename files)
+39. du : disk utilisation (du -sh "foldername")
+	-h: human readable form
+
