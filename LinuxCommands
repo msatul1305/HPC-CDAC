@@ -46,4 +46,4 @@ ps -aux
 38. mv : move-It renames if you move it to same dir(used to rename files)
 39. du : disk utilisation (du -sh "foldername")
 	-h: human readable form
-
+40./proc/cpuinfo (or) lscpu : get no of processors /cores
