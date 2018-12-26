@@ -23,14 +23,14 @@ ps -aux
 22. wc: word count
 23. free /free -h: get ram status
 24. ssh vssut@10.208.34.9
-25. command | wc -l : count no of things in a list	
-26. top
+25. command |ps wc -l : count no of things in a list	
+26. top : view your system’s resource usage and see the processes that are taking up the most system resources. It displays a list of processes, with the ones using the most CPU .
 27. VIM COMMANDS
 	 get out of vi : esc-> :q or :q!(forcefully quit)
 	 insert in vim : press i
  	 w: write 
  	 wq: save and exit
-	:set nu : line numbers will be displayed
+	:set nu : show line numbers (lines nos will be displayed)
 	?"text" : search a particular text in the file
 	:%s/"oldtext"/"newtext" : search and replace all
 28.head -n "10" "filename": display first 10 lines 
@@ -47,3 +47,6 @@ ps -aux
 39. du : disk utilisation (du -sh "foldername")
 	-h: human readable form
 40./proc/cpuinfo (or) lscpu : get no of processors /cores
+41. yum -y update: update  
+42. kill :killl a process 
+
