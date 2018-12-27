@@ -1,0 +1,7 @@
+1. cpu vs gpu
+
+2. hardware specification/details of parallel computers
+
+3. explicit and implicit parallelism
+
+4.gigabit switch and infiny band

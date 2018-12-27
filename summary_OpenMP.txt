@@ -1,0 +1,12 @@
+OpenMP Definition: It is an API which is used in the shared memory environment which defines various preprocessor directives and library routines to make a program parallel.
+Here , the program is divided into a no of threads which execute in parallel in multiple cores using fork and join.
+
+
+
+
+
+
+
+
+MPI : It is an extension of programming languages like c,c++,FORTRAN etc. which is used in case of distributed environment where there is multiple copies of the same program in various processors.
+

@@ -48,5 +48,10 @@ ps -aux
 	-h: human readable form
 40./proc/cpuinfo (or) lscpu : get no of processors /cores
 41. yum -y update: update  
-42. kill :killl a process 
+42. kill "PID" :killl a process using its pid
+43. pkill/killall "pname"- kill using process name
+44. : Check if a program has used openmp directives
+45. history : list of all used commands [History of commands used through the terminal] 
+46.
+
 
