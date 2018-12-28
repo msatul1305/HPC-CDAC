@@ -1,0 +1,3 @@
+PTX code => parallel Thread manager code [GPU Code]
+NVCC divides code into CPU code and PTX code.
+Extension : .cu

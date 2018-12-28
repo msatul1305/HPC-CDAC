@@ -52,6 +52,11 @@ ps -aux
 43. pkill/killall "pname"- kill using process name
 44. : Check if a program has used openmp directives
 45. history : list of all used commands [History of commands used through the terminal] 
-46.
-
-
+46.chmod 777 file/folder_name : give full permissions to the file for all 3 types of users [admin user and others]
+47. which :
+48.watch :
+CUDA:
+module list
+which nvcc
+watch nvidia-smi
+nvcc "file_name.cu" -o "output_file_name"
