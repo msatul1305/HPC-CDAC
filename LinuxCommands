@@ -60,4 +60,6 @@ module list
 which nvcc
 watch nvidia-smi
 nvcc "file_name.cu" -o "output_file_name"
-history -c : clears the history of commands
+49.history -c : clears the history of commands
+50. sudo apt-get install "program name"/ sudo apt install "program, name"- install applications
+51. sudo remove "programName" - Uninstall a program
