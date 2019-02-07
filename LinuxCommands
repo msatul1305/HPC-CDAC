@@ -63,3 +63,5 @@ nvcc "file_name.cu" -o "output_file_name"
 49.history -c : clears the history of commands
 50. sudo apt-get install "program name"/ sudo apt install "program, name"- install applications
 51. sudo remove "programName" - Uninstall a program
+52. tail -f /var/log/messages ->get the list of devices mounted
+53. sudo umount /mnt/"devicename"  ->unmount the device
