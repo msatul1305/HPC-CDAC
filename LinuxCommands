@@ -60,3 +60,4 @@ module list
 which nvcc
 watch nvidia-smi
 nvcc "file_name.cu" -o "output_file_name"
+history -c : clears the history of commands
