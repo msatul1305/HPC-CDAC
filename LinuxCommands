@@ -11,7 +11,7 @@
 11. useradd 
 12. ctrl+ d/logout/exit: logout
 13. DONOT USE: rm -rvf /
-14. touch : create a new file
+14. touch : create a new file if the file is non-existing or update the timestamp if the file already exists
 15.vi/vim for redhat and nano for debian: edit files
 16.systemctl status/stop/start "sshd"- check status/start/stop of sshd service
 17. wall-  broadcast message to all logged in users
@@ -63,5 +63,5 @@ nvcc "file_name.cu" -o "output_file_name"
 49.history -c : clears the history of commands
 50. sudo apt-get install "program name"/ sudo apt install "program, name"- install applications
 51. sudo remove "programName" - Uninstall a program
-52. tail -f /var/log/messages ->get the list of devices mounted
+52. tail -f /var/log/messages (or) sudo fdisk -l->get the list of devices mounted
 53. sudo umount /mnt/"devicename"  ->unmount the device
