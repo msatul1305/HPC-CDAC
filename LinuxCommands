@@ -65,3 +65,5 @@ nvcc "file_name.cu" -o "output_file_name"
 51. sudo remove "programName" - Uninstall a program
 52. tail -f /var/log/messages (or) sudo fdisk -l->get the list of devices mounted
 53. sudo umount /mnt/"devicename"  ->unmount the device
+54. write "username" "pts/ptsno" 
+"Message"	-> send message to a specific user
