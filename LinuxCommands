@@ -67,3 +67,4 @@ nvcc "file_name.cu" -o "output_file_name"
 53. sudo umount /mnt/"devicename"  ->unmount the device
 54. write "username" "pts/ptsno" 
 "Message"	-> send message to a specific user
+get pts and ptsno from who command
