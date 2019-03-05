@@ -68,3 +68,5 @@ nvcc "file_name.cu" -o "output_file_name"
 54. write "username" "pts/ptsno" 
 "Message"	-> send message to a specific user
 get pts and ptsno from who command
+Go back to terminal keeping vim in background: ctrl+z
+type "fg" to go back to vim 
