@@ -82,7 +82,7 @@ app commands:
 4.eog file.png - Image Reader
 5.virtualbox
 6.gedit - text_editor
-
+7.Firefox
 The way to "double-click" on a file from the command line is xdg-open. 
 
 
