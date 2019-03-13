@@ -78,7 +78,7 @@ Using GUI Linux remote access: ssh -X user@ip
 app commands:
 1.xterm
 2.libreoffice file.odt
-3.evince file.pdf - pdf reader
+3.evince file.pdf / xdg-open file2open.pdf / gvfs-open file2open.pdf- pdf reader
 4.eog file.png - Image Reader
 5.virtualbox
 6.gedit - text_editor
