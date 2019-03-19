@@ -85,4 +85,7 @@ app commands:
 7.Firefox
 The way to "double-click" on a file from the command line is xdg-open. 
 
-
+############ For Python 3 ############
+# create virtual environment
+mkvirtualenv facecourse-py3 -p python3
+workon facecourse-py3
