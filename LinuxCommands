@@ -89,3 +89,9 @@ The way to "double-click" on a file from the command line is xdg-open.
 # create virtual environment
 mkvirtualenv facecourse-py3 -p python3
 workon facecourse-py3
+
+
+Install .deb files
+1.You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
+OR
+2.You can install it using sudo apt install ./name.deb (or sudo apt install /path/to/package/name.deb). 
