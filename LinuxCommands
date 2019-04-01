@@ -102,5 +102,7 @@ using graphics.h library to run computer graphics programs
 gcc demo.c -o demo -lgraph
 ./demo
 
+
+SCP- secure copy protocol
 Copy from local to Server: 
 Copy from server to local : scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
