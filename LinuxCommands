@@ -60,6 +60,7 @@ module list
 which nvcc
 watch nvidia-smi
 nvcc "file_name.cu" -o "output_file_name"
+
 49.history -c : clears the history of commands
 50. sudo apt-get install "program name"/ sudo apt install "program, name"- install applications
 51. sudo remove "programName" - Uninstall a program
@@ -100,3 +101,6 @@ OR
 using graphics.h library to run computer graphics programs
 gcc demo.c -o demo -lgraph
 ./demo
+
+Copy from local to Server: 
+Copy from server to local : scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
