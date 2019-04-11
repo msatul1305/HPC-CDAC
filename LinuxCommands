@@ -93,16 +93,19 @@ workon facecourse-py3
 
 
 Install .deb files
-1.You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
+56.You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
 OR
-2.You can install it using sudo apt install ./name.deb (or sudo apt install /path/to/package/name.deb). 
+57.You can install it using sudo apt install ./name.deb (or sudo apt install /path/to/package/name.deb). 
 
 
 using graphics.h library to run computer graphics programs
-gcc demo.c -o demo -lgraph
+58. gcc demo.c -o demo -lgraph
 ./demo
 
 
 SCP- secure copy protocol
-Copy file from local to Server: scp crc.pdf cse0031@172.27.0.27:~
-Copy folder from server to local : scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
+59. Copy file from local to Server: scp crc.pdf cse0031@172.27.0.27:~
+60. Copy folder from server to local : scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
+
+61. go to home from anywhere in the terminal
+cd ~
