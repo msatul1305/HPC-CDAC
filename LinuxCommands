@@ -38,6 +38,7 @@ ps -aux
 30.more/less "filename": display first 10 lines and press enter to show next line
 31. head -n 50| tail -n 15 : display line 35 to 50  (1st find first 50 lines and then show last 15 lines of that first 50 line)
 32.tar -zxvf "filename" - extract archive files (zxvf-> z:gzip,x:extract,v:verbose,f:bzip2)
+unzip file.zip - extract the files from zip
 33.cp "vss.txt" "/home/msatul1305/Desktop" -v : copy from current directory to new directory -v=>verbose(show copied acknowldgement)
 34. "." : current directory
 35. ".." : parent directory
