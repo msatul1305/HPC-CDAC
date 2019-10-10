@@ -8,7 +8,7 @@
 8. mkdir: make directory
 9. su -  change to root user
 10. su - "username" : change current user
-11. useradd 
+11. useradd
 12. ctrl+ d/logout/exit: logout
 13. DONOT USE: rm -rvf /
 14. touch : create a new file if the file is non-existing or update the timestamp if the file already exists
@@ -16,24 +16,24 @@
 16.systemctl status/stop/start "sshd"- check status/start/stop of sshd service
 17. wall-  broadcast message to all logged in users
 18.In WIndows to Restart wireless network :ncpa.ctl
-19.w: list of all loggedin users 
+19.w: list of all loggedin users
 20. ps: get my processes/machine number...
 ps -aux
 21.ifup ens33 and ifdown ens33 : to connect/disconnect system to network
 22. wc: word count
 23. free /free -h: get ram status
 24. ssh vssut@10.208.34.9
-25. command |ps wc -l : count no of things in a list	
+25. command |ps wc -l : count no of things in a list
 26. top : view your system’s resource usage and see the processes that are taking up the most system resources. It displays a list of processes, with the ones using the most CPU .
 27. VIM COMMANDS
 	 get out of vi : esc-> :q or :q!(forcefully quit)
 	 insert in vim : press i
- 	 w: write 
+ 	 w: write
  	 wq: save and exit
 	:set nu : show line numbers (lines nos will be displayed)
 	?"text" : search a particular text in the file
 	:%s/"oldtext"/"newtext" : search and replace all
-28.head -n "10" "filename": display first 10 lines 
+28.head -n "10" "filename": display first 10 lines
 29.tail -n "10" "filename" : display last 10 lines
 30.more/less "filename": display first 10 lines and press enter to show next line
 31. head -n 50| tail -n 15 : display line 35 to 50  (1st find first 50 lines and then show last 15 lines of that first 50 line)
@@ -48,11 +48,11 @@ unzip file.zip - extract the files from zip
 39. du : disk utilisation (du -sh "foldername")
 	-h: human readable form
 40./proc/cpuinfo (or) lscpu : get no of processors /cores
-41. yum -y update: update  
+41. yum -y update: update
 42. kill "PID" :killl a process using its pid
 43. pkill/killall "pname"- kill using process name
 44. : Check if a program has used openmp directives
-45. history : list of all used commands [History of commands used through the terminal] 
+45. history : list of all used commands [History of commands used through the terminal]
 46.chmod 777 file/folder_name : give full permissions to the file for all 3 types of users [admin user and others]
 47. which :
 48.watch :
@@ -67,11 +67,11 @@ nvcc "file_name.cu" -o "output_file_name"
 51. sudo remove "programName" - Uninstall a program
 52. tail -f /var/log/messages (or) sudo fdisk -l->get the list of devices mounted
 53. sudo umount /mnt/"devicename"  ->unmount the device
-54. write "username" "pts/ptsno" 
+54. write "username" "pts/ptsno"
 "Message"	-> send message to a specific user
 get pts and ptsno from who command
 Go back to terminal keeping vim in background: ctrl+z
-type "fg" to go back to vim 
+type "fg" to go back to vim
 55.nproc - No of CPUs in the System
 
 
@@ -85,7 +85,7 @@ app commands:
 5.virtualbox
 6.gedit - text_editor
 7.Firefox
-The way to "double-click" on a file from the command line is xdg-open. 
+The way to "double-click" on a file from the command line is xdg-open.
 
 ############ For Python 3 ############
 # create virtual environment
@@ -96,7 +96,7 @@ workon facecourse-py3
 Install .deb files
 56.You can install it using sudo dpkg -i /path/to/deb/file followed by sudo apt-get install -f.
 OR
-57.You can install it using sudo apt install ./name.deb (or sudo apt install /path/to/package/name.deb). 
+57.You can install it using sudo apt install ./name.deb (or sudo apt install /path/to/package/name.deb).
 
 
 using graphics.h library to run computer graphics programs
@@ -111,3 +111,6 @@ SCP- secure copy protocol
 61. go to home from anywhere in the terminal
 cd ~
 62. anaconda-navigator : Opens anaconda
+63. lspci | grep VGA : Shows the available graphics cards in your system
+64. find . : find fiels and folders in current directory
+65. reboot : restart the system
